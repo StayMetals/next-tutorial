@@ -4,6 +4,9 @@ import Link from 'next/link';
 import styles from '@/app/ui/home.module.css';
 import { lusitana } from './ui/fonts';
 import Image from 'next/image';
+import { Card } from '@/app/ui/dashboard/cards';
+import RevenueChart from '@/app/ui/dashboard/revenue-chart';
+import LatestInvoices from '@/app/ui/dashboard/latest-invoices';
 
 export default function Page() {
   return (
